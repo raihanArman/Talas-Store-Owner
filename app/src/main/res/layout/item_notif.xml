@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mantap"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/btn_aktifkan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktifkan"
+            android:textAllCaps="false"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_white"
+            android:backgroundTint="@color/red_main"
+            android:layout_gravity="center_horizontal"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
